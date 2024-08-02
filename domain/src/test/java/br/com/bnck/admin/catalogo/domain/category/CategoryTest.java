@@ -1,7 +1,5 @@
 package br.com.bnck.admin.catalogo.domain.category;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
