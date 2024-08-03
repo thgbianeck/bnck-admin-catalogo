@@ -1,7 +1,8 @@
 package br.com.bnck.admin.catalogo.domain.category;
 
-import java.util.List;
 import java.util.Optional;
+
+import br.com.bnck.admin.catalogo.domain.pagination.Pagination;
 
 public interface CategoryGateway {
 
@@ -13,6 +14,5 @@ public interface CategoryGateway {
 
     Category update(Category aCategory);
 
-    List<CategoryID> existsByIds(Iterable<CategoryID> ids);
-
+    Pagination<Category> findAll(CategorySearchQuery aQuery);
 }
